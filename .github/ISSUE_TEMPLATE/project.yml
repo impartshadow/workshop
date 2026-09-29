@@ -1,0 +1,30 @@
+name: Bring a project
+description: Turn a question you care about into shared work.
+title: "[Project] "
+labels: [project]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What question or outcome matters to you?
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Public inputs and existing work
+      description: Links, data, code, or what is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: first_task
+    attributes:
+      label: A first useful contribution
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: How could someone check the result?
+    validations:
+      required: true

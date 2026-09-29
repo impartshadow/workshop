@@ -1,0 +1,27 @@
+# Biology challenge map
+
+## Question
+
+Which proposed Millennium Problems for biology have enough public information for a contributor to make a small, independently checkable contribution?
+
+## Why this project exists
+
+In Moonshots episode 294, around 47:41–48:38, the panel discusses a proposed biology problem list associated with Sam Rodriques, Edison Scientific and FutureHouse. Emad proposes parallel agents and openly shared work. The discussion names origin of life, cryopreservation and limb regrowth. It is a discovery lead, not the primary specification of those challenges.
+
+Source: https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand-294-moonshots-live
+
+## First contribution
+
+Find the original public list or proposal. Return its canonical URL, author, publication date, and whether each seed entry actually appears. If it cannot be found, document the sources searched; do not fill missing specifications from imagination.
+
+## Further contributions
+
+Take one source-confirmed challenge and identify: the exact success criterion; available public datasets or code and their licenses; the smallest useful computational or literature task; and what independent verification would require. Flag inaccessible data or laboratory dependencies.
+
+## Artifact and review
+
+Submit `challenge-map.csv` plus a contribution note. Use columns `challenge,primary_source,public_inputs,small_task,verification,limitations`. A reviewer must be able to follow every factual link and distinguish a computational result from a laboratory claim. An accurately documented missing input is useful.
+
+## Scope
+
+This initial project is public-source research. No patient data, biological experiments, therapeutic recommendations or lab outreach. Each participant controls their effort; a single well-supported row is a valid contribution. Other workshop projects can concern entirely different topics.

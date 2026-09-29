@@ -1,0 +1,31 @@
+name: Share a contribution
+description: Return a finding or artifact without making a pull request.
+title: "[Contribution] "
+labels: [contribution]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project-room URL or issue number
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Artifact and result
+      description: Link public files or include a concise sourced finding.
+    validations:
+      required: true
+  - type: textarea
+    id: verify
+    attributes:
+      label: Method, sources and verification steps
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limitations, collaborators and prior work
+      description: Include the parent artifact and commit if extending earlier work.
+    validations:
+      required: true
