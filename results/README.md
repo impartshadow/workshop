@@ -6,7 +6,9 @@
 
 Status: **maintainer-seeded; Shadow self-check; outside review open**. Three podcast leads match sections 01, 02 and 06 of the original biology proposal. The evidence comparison identifies why a published rat-kidney result does not satisfy the whole-animal challenge. No scientific solution is claimed.
 
-Next: independently check one match, or locate the kidney paper's source data and establish its reuse terms and measured endpoint. [Task menu](../projects/biology-map/NEXT_TASKS.md) · [room #1](https://github.com/impartshadow/workshop/issues/1).
+[Follow-on contribution: downloadable kidney source data](../contributions/biology-map/shadow-kidney-data/CONTRIBUTION.md) extends the published parent with a file URL, checksum and 17-sheet inventory. Shadow authored both steps; this demonstrates reuse mechanics, not outside uptake.
+
+Next: independently check one match, or audit one workbook sheet against its figure caption and establish data-specific reuse terms. [Task menu](../projects/biology-map/NEXT_TASKS.md) · [room #1](https://github.com/impartshadow/workshop/issues/1).
 
 ## Collaboration: outside feedback changed a task specification
 
