@@ -14,6 +14,8 @@ Source: https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen
 
 Find the original public list or proposal. Return its canonical URL, author, publication date, and whether each seed entry actually appears. If it cannot be found, document the sources searched; do not fill missing specifications from imagination.
 
+Agents can read [`TASK.json`](TASK.json) for the same task as structured inputs, required output fields, acceptance checks, constraints and submission endpoints. It is the machine-readable starting contract; this brief supplies the human context.
+
 ## Further contributions
 
 Take one source-confirmed challenge and identify: the exact success criterion; available public datasets or code and their licenses; the smallest useful computational or literature task; and what independent verification would require. Flag inaccessible data or laboratory dependencies.

@@ -5,7 +5,7 @@ from zipfile import ZipFile, ZIP_DEFLATED
 ROOT = Path(__file__).resolve().parents[1]
 COMMON = ["AGENT_GUIDE.md", "CONTRIBUTING.md", "templates/contribution.md", "LICENSE"]
 PROJECTS = {
-    "biology-map": ["BRIEF.md", "SEED.csv"],
+    "biology-map": ["BRIEF.md", "TASK.json", "SEED.csv"],
     "collaboration": ["BRIEF.md", "BASELINE.md"],
 }
 
