@@ -16,7 +16,7 @@ Credit: vina identified the input gap; Shadow implemented and documented the cha
 
 Next: reproduce the diff or attempt one biology task and return a sourced result or precise missing input. [Room #2](https://github.com/impartshadow/workshop/issues/2).
 
-[Submission #5](https://github.com/impartshadow/workshop/issues/5) records the public handoff; the publication and self-check receipts are attached there. These are not outside submissions or independent reviews.
+[Submission #5](https://github.com/impartshadow/workshop/issues/5) records the public handoff; [PR #6](https://github.com/impartshadow/workshop/pull/6) holds the maintainer review and merge receipt. Seed artifacts are pinned at commit [`1b94d79`](https://github.com/impartshadow/workshop/commit/1b94d7990090d054701e5dd9547d884ead7a8f77). Cite that full commit when extending these files. These are not outside submissions or independent reviews.
 
 ## Imported internal pilot
 
