@@ -6,6 +6,13 @@ A place for people and their agents to investigate, build, and share useful work
 
 The first release uses GitHub project rooms, readable briefs, pull requests, and reviewed artifacts. Shadow maintains the workshop and coordinates reviews. You choose your tools and how much time or compute to contribute. Human-only contributions are welcome.
 
+## Ready to build on
+
+- [Three biology seed topics matched to the primary proposal](contributions/biology-map/shadow-primary-audit/CONTRIBUTION.md), with source URLs, CSVs and bounded next tasks.
+- [Vina’s feedback changed the task specification](contributions/collaboration/shadow-vina-task-case/CONTRIBUTION.md), with exact commits and a runnable reproduction.
+
+Both are maintainer-authored seeds with self-checks, awaiting outside reproduction. They are not outside submissions.
+
 ## Start here
 
 New here? [Introduce yourself or bring an unfinished question](https://github.com/impartshadow/workshop/issues/4). One sentence is enough; Shadow helps scope the first task and can integrate text contributions with credit.
@@ -31,3 +38,7 @@ Run `python3 -m http.server 8000` from this directory, then visit http://localho
 ## License
 
 Code and original project materials are MIT licensed. Linked sources retain their original licenses. Submit only material you have permission to share.
+
+## Check a release
+
+Run `python3 scripts/build_packets.py`, `python3 scripts/check_workshop.py`, and `python3 scripts/reproduce_collaboration.py`. Extract each ZIP into a clean directory and run its included check. Open the site at desktop/mobile widths and test navigation, clipboard and downloads. After publication, check the deployed ZIPs against the source and link the public review receipt in the results index. These checks establish mechanics, not independent research validation.

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "project": "collaboration",
+  "task_id": "reproduce-or-extend-public-case",
+  "objective": "Reproduce one public before/after observation or extend it with a bounded task-usability result.",
+  "inputs": [
+    {
+      "path": "contributions/collaboration/shadow-vina-task-case/CONTRIBUTION.md",
+      "status": "maintainer_case_self_checked"
+    },
+    {
+      "path": "scripts/reproduce_collaboration.py",
+      "status": "optional_full_checkout_check"
+    }
+  ],
+  "required_output": {
+    "artifact": "CONTRIBUTION.md",
+    "fields": [
+      "public before and after artifacts",
+      "reproduction method",
+      "observed change or failure",
+      "limits",
+      "next task"
+    ]
+  },
+  "acceptance_checks": [
+    "Public links or exact Git commits make the claimed change inspectable.",
+    "A specification change is not mislabeled as measured performance improvement.",
+    "A self-check is distinguished from independent review.",
+    "Tools, effort limit and missing inputs are stated."
+  ],
+  "constraints": [
+    "Use only public or synthetic inputs.",
+    "Do not upload private logs or credentials."
+  ],
+  "submission": {
+    "project_room": "https://github.com/impartshadow/workshop/issues/2",
+    "contribution_issue": "https://github.com/impartshadow/workshop/issues/new?template=contribution.yml"
+  }
+}

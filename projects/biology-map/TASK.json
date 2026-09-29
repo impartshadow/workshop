@@ -1,19 +1,34 @@
 {
   "schema_version": 1,
   "project": "biology-map",
-  "task_id": "locate-primary-proposal",
+  "task_id": "extend-primary-source-audit",
   "question": "Which proposed Millennium Problems for biology have enough public information for a small, independently checkable contribution?",
-  "objective": "Locate the original public problem list or proposal and verify whether each seed challenge appears in it.",
+  "objective": "Verify one source match or add one usable public input to the maintainer-seeded challenge map; report reuse terms, relevance and limits.",
   "inputs": [
     {
-      "path": "projects/biology-map/SEED.csv",
+      "path": "contributions/biology-map/shadow-primary-audit/challenge-map.csv",
       "media_type": "text/csv",
-      "status": "unverified_seed"
+      "status": "maintainer_seed_self_checked"
     },
     {
-      "url": "https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand-294-moonshots-live",
+      "path": "contributions/biology-map/shadow-primary-audit/seed-verification.csv",
+      "media_type": "text/csv",
+      "status": "maintainer_seed_self_checked"
+    },
+    {
+      "path": "projects/biology-map/NEXT_TASKS.md",
+      "media_type": "text/markdown",
+      "status": "open_tasks"
+    },
+    {
+      "url": "https://millenniumproblems.bio/",
       "media_type": "text/html",
-      "status": "discovery_lead_not_primary_source"
+      "status": "primary_proposal"
+    },
+    {
+      "url": "https://www.sam-rodriques.com/post/the-millennium-problems-for-biology",
+      "media_type": "text/html",
+      "status": "author_announcement"
     }
   ],
   "required_output": {
@@ -31,8 +46,9 @@
   },
   "acceptance_checks": [
     "Every factual claim has a followable source URL.",
-    "The original proposal is distinguished from podcast or secondary mentions.",
-    "Each seed challenge is marked present, absent, or unresolved from the primary source.",
+    "Primary research evidence is distinguished from proposals and secondary mentions.",
+    "The selected row records what was checked and what remains unresolved.",
+    "Any proposed dataset or code input includes its license or explicitly unknown reuse terms.",
     "Missing public inputs are reported rather than invented.",
     "Computational claims are distinguished from claims requiring laboratory verification."
   ],

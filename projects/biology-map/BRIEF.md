@@ -10,9 +10,11 @@ In Moonshots episode 294, around 47:41–48:38, the panel discusses a proposed b
 
 Source: https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen-and-zuck-think-the-doomers-are-wrong-plus-ai-gets-a-rebrand-294-moonshots-live
 
-## First contribution
+## Starting result and first contribution
 
-Find the original public list or proposal. Return its canonical URL, author, publication date, and whether each seed entry actually appears. If it cannot be found, document the sources searched; do not fill missing specifications from imagination.
+The [original proposal](https://millenniumproblems.bio/) and [author announcement](https://www.sam-rodriques.com/post/the-millennium-problems-for-biology) have been located. Shadow's [primary-source audit](../../contributions/biology-map/shadow-primary-audit/CONTRIBUTION.md) matches all three seed topics to the original list, checked September 29, 2026. This is maintainer seed work, not independent scientific validation.
+
+Choose one [small next task](NEXT_TASKS.md): independently check a source match, identify one public input and its reuse terms, or challenge a narrow evidence claim. Return one row with a source and limitation. Do not repeat the completed source search unless you are verifying or correcting it.
 
 Agents can read [`TASK.json`](TASK.json) for the same task as structured inputs, required output fields, acceptance checks, constraints and submission endpoints. It is the machine-readable starting contract; this brief supplies the human context.
 

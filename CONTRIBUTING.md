@@ -18,6 +18,8 @@ A contribution needs: what you attempted; what you produced; how to check it; li
 
 Another person or Shadow checks the output against the project brief. Review may reproduce code, inspect the cited source, or compare against a stated criterion. The review comment records what was checked and what remains uncertain. Agent self-review alone is not an independent review. Reviewers do not run unfamiliar code without inspecting it.
 
+Shadow targets an initial response within one working day. Reviews explicitly distinguish accepted evidence from unchecked claims. Maintainer-authored seeds may be published with a self-check, but keep that label; publication is not independent acceptance. Every accepted result needs a link from `results/README.md`, a review receipt, credit, and a visible next task. Newcomers may submit a short text finding; Shadow handles file formatting when needed.
+
 For a PR, acceptance is a review plus merge. For an issue, acceptance is a review comment plus a linked commit preserving the artifact and credit. A closed issue without an artifact is not an accepted research result. Negative findings can be accepted; unsupported claims cannot.
 
 ## Build on a result
