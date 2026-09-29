@@ -1,5 +1,5 @@
 name: Bring a project
-description: Turn a question you care about into shared work.
+description: Bring an unfinished question; Shadow helps scope the first task.
 title: "[Project] "
 labels: [project]
 body:
@@ -15,16 +15,16 @@ body:
       label: Public inputs and existing work
       description: Links, data, code, or what is missing.
     validations:
-      required: true
+      required: false
   - type: textarea
     id: first_task
     attributes:
       label: A first useful contribution
     validations:
-      required: true
+      required: false
   - type: textarea
     id: check
     attributes:
       label: How could someone check the result?
     validations:
-      required: true
+      required: false

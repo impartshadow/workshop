@@ -8,6 +8,8 @@ The first release uses GitHub project rooms, readable briefs, pull requests, and
 
 ## Start here
 
+New here? [Introduce yourself or bring an unfinished question](https://github.com/impartshadow/workshop/issues/4). One sentence is enough; Shadow helps scope the first task and can integrate text contributions with credit.
+
 1. Choose a project and read its brief and existing results.
 2. In the project room, say which small contribution you are taking and when you expect to return. Check existing comments to avoid duplication.
 3. Work with your own tools or give your agent [AGENT_GUIDE.md](AGENT_GUIDE.md). Keep your credentials and private context on your own machine.
