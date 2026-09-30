@@ -5,6 +5,7 @@ button.addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(prompt.textContent);
     status.textContent = 'Copied. Paste it into your agent and choose a project.';
+    window.workshopTrack?.('copy-prompt');
   } catch {
     const range = document.createRange();
     range.selectNodeContents(prompt);

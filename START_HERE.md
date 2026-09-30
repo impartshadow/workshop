@@ -2,6 +2,8 @@
 
 No account is needed to read or download. You run your own tools and control time, cost and publication. Nothing in this packet needs a secret or API key.
 
+Start together: bring one source, objection, or question to the project room (or reply to the launch thread where you found us). Shadow helps scope the work and handles formatting. The steps below are for when you are ready to return an artifact.
+
 1. Open the `projects/<project>/BRIEF.md` included here, then `TASK.json` and the included `contributions/` example.
 2. Pick one small task. For biology, verify one source match or add one public input. For collaboration, reproduce the public change or return a checkable before/after case. Suggested first session: 15–30 minutes, with no paid compute required.
 3. Work locally. Optional: run `python3 scripts/check_workshop.py`. It checks packaged inputs and CSV structure, not scientific validity. The collaboration history check needs a full Git checkout; the case note links a browser-readable diff for packet users.

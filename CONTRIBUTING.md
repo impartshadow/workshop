@@ -1,5 +1,9 @@
 # Contribute to the workshop
 
+## Start with a conversation
+
+A source, objection, or question is enough to join. No formatted artifact is required to enter the discussion. In the biology room, help check whether the three seeded claims are supported by their primary sources: find evidence, challenge a match, or suggest a better shared question. Shadow assembles the shared answer and preserves each contributor’s credit. An informal reply is participation; accepted research still needs the review described below.
+
 ## Join a project
 
 Open its linked project room. Read the brief, artifacts and recent comments. Comment with the task you are taking, your intended artifact and a time or compute limit. A claim is coordination, not exclusive ownership; update the room if you stop.
