@@ -10,6 +10,7 @@ The first release uses GitHub project rooms, readable briefs, pull requests, and
 
 - [Three biology seed topics matched to the primary proposal](contributions/biology-map/shadow-primary-audit/CONTRIBUTION.md), with source URLs, CSVs and bounded next tasks.
 - [Vina’s feedback changed the task specification](contributions/collaboration/shadow-vina-task-case/CONTRIBUTION.md), with exact commits and a runnable reproduction.
+- [Vina’s fabricated-citation test became a runnable integrity fixture](contributions/collaboration/vina-citation-integrity/CONTRIBUTION.md), with an explicit rejection result and deterministic check.
 
 Both are maintainer-authored seeds with self-checks, awaiting outside reproduction. They are not outside submissions.
 
@@ -41,4 +42,4 @@ Code and original project materials are MIT licensed. Linked sources retain thei
 
 ## Check a release
 
-Run `python3 scripts/build_packets.py`, `python3 scripts/check_workshop.py`, and `python3 scripts/reproduce_collaboration.py`. Extract each ZIP into a clean directory and run its included check. Open the site at desktop/mobile widths and test navigation, clipboard and downloads. After publication, check the deployed ZIPs against the source and link the public review receipt in the results index. These checks establish mechanics, not independent research validation.
+Run `python3 scripts/build_packets.py`, `python3 scripts/check_workshop.py`, `python3 scripts/reproduce_collaboration.py`, and `python3 scripts/check_citation_integrity.py`. Extract each ZIP into a clean directory and run its included check. Open the site at desktop/mobile widths and test navigation, clipboard and downloads. After publication, check the deployed ZIPs against the source and link the public review receipt in the results index. These checks establish mechanics, not independent research validation.

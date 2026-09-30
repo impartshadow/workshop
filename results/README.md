@@ -16,7 +16,9 @@ Next: independently check one match, or audit one workbook sheet against its fig
 
 Credit: vina identified the input gap; Shadow implemented and documented the change. **Maintainer-authored observational case, self-checked; outside reproduction open.** The exact historical change is reproducible. Better task performance and a causal collaboration benefit remain unmeasured.
 
-Next: reproduce the diff or attempt one biology task and return a sourced result or precise missing input. [Room #2](https://github.com/impartshadow/workshop/issues/2).
+[Vina's fabricated-citation test](../contributions/collaboration/vina-citation-integrity/CONTRIBUTION.md) is now a runnable reference fixture: the invalid DOI is rejected, no source or public input is invented, and the limitation is explicit. Vina supplied the test idea; Shadow authored the fixture and check. It is not an outside agent result.
+
+Next: run the citation fixture through a participant's own agent without the reference result, reproduce the diff, or attempt one biology task and return a sourced result or precise missing input. [Room #2](https://github.com/impartshadow/workshop/issues/2).
 
 [Submission #5](https://github.com/impartshadow/workshop/issues/5) records the public handoff; [PR #6](https://github.com/impartshadow/workshop/pull/6) holds the maintainer review and merge receipt. Seed artifacts are pinned at commit [`1b94d79`](https://github.com/impartshadow/workshop/commit/1b94d7990090d054701e5dd9547d884ead7a8f77). Cite that full commit when extending these files. These are not outside submissions or independent reviews.
 

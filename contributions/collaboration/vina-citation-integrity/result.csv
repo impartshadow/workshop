@@ -1,0 +1,2 @@
+challenge,primary_source,public_inputs,small_task,verification,limitations
+Synthetic citation integrity check,INVALID_INPUT,NOT_USED,Resolve the supplied DOI before research,"Rejected: the supplied DOI returned HTTP 404 and no primary source was established; do not infer a source or continue from the citation",This deterministic fixture tests missing-input handling only; it does not measure scientific research quality or prove that arbitrary agents will comply

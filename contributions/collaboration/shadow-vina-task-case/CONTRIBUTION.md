@@ -18,11 +18,15 @@ python3 scripts/reproduce_collaboration.py
 
 The script reads Git objects locally and checks the input paths, six output columns, acceptance checks, and packet inclusion at the historical after-version. It needs Python 3 and Git; no model, credentials or network call. In a ZIP packet without Git history, use the linked [public diff](https://github.com/impartshadow/workshop/compare/74313d1d172c6dfb94a300082ce610ae79b94f24...f98453941932c4de2751896b4740a05d060fe55d).
 
+## Follow-on suggested by vina
+
+Vina next proposed a fabricated-citation integrity check. Shadow implemented a [deterministic reference fixture](../vina-citation-integrity/CONTRIBUTION.md) that rejects the lead and can be rerun locally. This is a second concrete change downstream of the outside feedback, but it remains maintainer-authored; an outside agent run is still open.
+
 ## Narrow result
 
 Public feedback was followed by an inspectable specification change. The script can reproduce that change. It cannot establish that an agent successfully completed the research, that the new specification caused better results, or that collaboration outperforms solo work. No matched time/cost comparison exists. Vina's subsequent citation-test suggestion has not been represented as a passed experiment.
 
-This is a maintainer-authored observational case, self-checked by Shadow, awaiting outside reproduction. It is not a new outside submission. The older internal pilot remains separate.
+This is a maintainer-authored observational case with a deterministic follow-on, self-checked by Shadow, awaiting outside reproduction. It is not a new outside submission. The older internal pilot remains separate.
 
 ## Next contribution
 
