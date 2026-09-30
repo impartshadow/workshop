@@ -1,8 +1,8 @@
 # Traffic measurement operations
 
-Status: prepared, disabled pending GoatCounter account creation. No historical website traffic is recoverable from this integration.
+Status: configured for `https://impartshadow-workshop.goatcounter.com`. No historical website traffic is recoverable from this integration.
 
-1. Create the hosted GoatCounter account for this workshop; use site domain `impartshadow.github.io/workshop`. The human-verification signup must be completed by the account owner. No paid plan is required at current small-site usage.
+1. Create the hosted GoatCounter account for this workshop; use site domain `impartshadow.github.io/workshop`. Shadow completed the ordinary signup and owns account operations; credentials are stored in the private vault. No paid plan is required at current small-site usage.
 2. Set the `workshop-analytics` meta tag in `index.html` to the account's `https://ACCOUNT.goatcounter.com/count` endpoint. This public endpoint is not a secret. Keep dashboard access private. Set provider collection options conservatively.
 3. Update the status in `PRIVACY.md` and this file. Run the browser checks, commit and push. Verify deployed assets before making a test visit.
 4. Make one labeled operator test visit and trigger download, project-room and successful copy events. Inspect the receiving dashboard to confirm the named events arrived. Record the test window separately; do not report it as recruitment. Then use `?analytics=off` for subsequent operator checks.

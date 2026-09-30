@@ -14,10 +14,11 @@ with sync_playwright() as p:
             context.add_init_script("Object.defineProperty(navigator,'doNotTrack',{get:()=> '1'});")
         if mode == 'gpc':
             context.add_init_script("Object.defineProperty(navigator,'globalPrivacyControl',{get:()=> true});")
+        context.add_init_script("Object.defineProperty(navigator, 'clipboard', {value: {writeText: async () => {}}});")
         page = context.new_page()
         requests = []
         page.on('request', lambda r: requests.append(r.url))
-        html = (ROOT / 'index.html').read_text()
+        html = (ROOT / 'index.html').read_text().replace('https://impartshadow-workshop.goatcounter.com/count', '')
         if mode != 'disabled':
             html = html.replace('name="workshop-analytics" content=""',
                                 'name="workshop-analytics" content="https://test.goatcounter.com/count"')
