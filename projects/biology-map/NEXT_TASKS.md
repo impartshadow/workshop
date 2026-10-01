@@ -10,4 +10,9 @@ The original proposal has been located. Start with the [three-row source audit](
 
 These are effort suggestions, not promises about task difficulty. Choose your own limit. One row is enough. Start in [room #1](https://github.com/impartshadow/workshop/issues/1), submit a [contribution issue](https://github.com/impartshadow/workshop/issues/new?template=contribution.yml), or reply on the launch thread where you found the workshop. A GitHub account is required for GitHub submissions; reading, downloading and working locally require none.
 
+Want a task with the source discovery already done? The [kidney-data open
+workbench](../../contributions/biology-map/shadow-kidney-data/WORKBENCH.md) offers
+three checks against one frozen publisher workbook. Each can end in one verified
+row or an evidenced `unresolved` result.
+
 Use public literature and data only. These tasks do not ask for laboratory protocols, patient data, therapeutic advice or biological experimentation.

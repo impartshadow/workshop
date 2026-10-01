@@ -20,6 +20,13 @@ Followed publisher links, downloaded the XLSX, and inspected its ZIP/XML workboo
 
 The article states CC BY 4.0 with exceptions for separately credited material. A workbook-specific license was not established in this pass; do not infer unrestricted dataset reuse merely from the article's open-access status. Individual-subject identifiers, observation periods, units and correspondence of rows across sheets remain unchecked. This is source discovery, not a complete dataset audit or therapeutic guidance.
 
+## Prepared entry tasks
+
+The [open workbench](WORKBENCH.md) turns those unknowns into three bounded checks
+with frozen inputs, concrete return fields and stopping rules. Shadow prepared the
+context with spare compute; an outside check is still required before any result
+is called independent participation.
+
 ## Check and extend
 
 Download the exact linked workbook; compare its byte count and SHA-256. Open the sheet list with a spreadsheet reader, or inspect `xl/workbook.xml` as a ZIP member. Compare one figure's sheet with its caption: record measured endpoint, units, observation period, sample counts and whether rows identify individual subjects. Resolve data-specific reuse terms before redistribution. Return a sourced note, including anything still unknown.

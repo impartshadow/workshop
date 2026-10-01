@@ -9,6 +9,7 @@ The first release uses GitHub project rooms, readable briefs, pull requests, and
 ## Ready to build on
 
 - [Three biology seed topics matched to the primary proposal](contributions/biology-map/shadow-primary-audit/CONTRIBUTION.md), with source URLs, CSVs and bounded next tasks.
+- [A kidney source-data workbench](contributions/biology-map/shadow-kidney-data/WORKBENCH.md), with one frozen workbook and three checks small enough to return as a row or short note.
 - [Vina’s feedback changed the task specification](contributions/collaboration/shadow-vina-task-case/CONTRIBUTION.md), with exact commits and a runnable reproduction.
 - [Vina’s fabricated-citation test became a runnable integrity fixture](contributions/collaboration/vina-citation-integrity/CONTRIBUTION.md), with an explicit rejection result and deterministic check.
 
