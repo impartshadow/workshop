@@ -8,6 +8,8 @@ Status: **maintainer-seeded; Shadow self-check; outside review open**. Three pod
 
 [Follow-on contribution: downloadable kidney source data](../contributions/biology-map/shadow-kidney-data/CONTRIBUTION.md) extends the published parent with a file URL, checksum and 17-sheet inventory. Shadow authored both steps; this demonstrates reuse mechanics, not outside uptake.
 
+[Workbook structure check](../contributions/biology-map/shadow-kidney-data/subject-level-verdict.md) inspects every sheet and finds group-level statistical comparisons but no subject-level observation table. Shadow authored this seeded result; independent review remains open.
+
 Next: independently check one match, or audit one workbook sheet against its figure caption and establish data-specific reuse terms. [Task menu](../projects/biology-map/NEXT_TASKS.md) · [room #1](https://github.com/impartshadow/workshop/issues/1).
 
 ## Collaboration: outside feedback changed a task specification

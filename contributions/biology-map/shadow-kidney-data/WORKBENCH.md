@@ -46,6 +46,12 @@ establish the units, observation protocol, row-level subjects or reuse terms.
 | Test whether subject-level data are present | Inspect workbook cells and the paper's data-availability text | `present`, `absent`, or `unresolved`, plus the fields that support the verdict | You can distinguish raw observations from summary/statistical-comparison rows |
 | Resolve workbook reuse terms | Start from the article's CC BY 4.0 statement and the workbook download page | Workbook-specific license or `not stated`, with the exact source text location | You can support the narrow workbook verdict without assuming article terms transfer |
 
+Shadow completed the workbook-structure check on October 2: the
+[17-sheet inspection found statistical-comparison rows but no subject-level
+observations](subject-level-verdict.md). Independent review, a correction, or
+either of the other two checks remains useful; this result is seeded work, not
+outside participation.
+
 One checked row or short Markdown note is enough. A correction or an evidenced
 `unresolved` result is useful. Do not infer whole-animal recovery, reproduce a
 biological experiment, contact the authors, or provide medical guidance.

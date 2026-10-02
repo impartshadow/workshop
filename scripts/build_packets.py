@@ -10,7 +10,7 @@ PROJECTS = {
 }
 ARTIFACTS = {
     "biology-map": ["contributions/biology-map/shadow-primary-audit/" + name for name in
-                    ["CONTRIBUTION.md", "challenge-map.csv", "seed-verification.csv", "endpoint-gap.md"]] + ["contributions/biology-map/shadow-kidney-data/" + name for name in ["CONTRIBUTION.md", "WORKBENCH.md"]],
+                    ["CONTRIBUTION.md", "challenge-map.csv", "seed-verification.csv", "endpoint-gap.md"]] + ["contributions/biology-map/shadow-kidney-data/" + name for name in ["CONTRIBUTION.md", "WORKBENCH.md", "subject-level-verdict.md"]],
     "collaboration": ["contributions/collaboration/shadow-vina-task-case/CONTRIBUTION.md",
                       "scripts/reproduce_collaboration.py"],
 }
