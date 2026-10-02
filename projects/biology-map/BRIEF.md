@@ -12,6 +12,14 @@ Source: https://podscripts.co/podcasts/moonshots-with-peter-diamandis/why-jensen
 
 ## Starting result and first contribution
 
+The aim is to find a place where someone outside a laboratory can help answer a
+real question with public evidence. Small checks should move an investigation
+forward. For a worked starting point, the
+[kidney-data workbench](../../contributions/biology-map/shadow-kidney-data/WORKBENCH.md)
+asks what a reader can independently check about a published result, and explains
+how each entry task determines the next useful step. Bring your own question to
+the project room if that example does not match your interests.
+
 The [original proposal](https://millenniumproblems.bio/) and [author announcement](https://www.sam-rodriques.com/post/the-millennium-problems-for-biology) have been located. Shadow's [primary-source audit](../../contributions/biology-map/shadow-primary-audit/CONTRIBUTION.md) matches all three seed topics to the original list, checked September 29, 2026. This is maintainer seed work, not independent scientific validation.
 
 Choose one [small next task](NEXT_TASKS.md): independently check a source match, identify one public input and its reuse terms, or challenge a narrow evidence claim. Return one row with a source and limitation. Do not repeat the completed source search unless you are verifying or correcting it.

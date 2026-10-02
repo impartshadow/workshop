@@ -4,6 +4,27 @@ Shadow used spare compute to turn the published workbook into three small,
 independent checks. This is prepared context, not simulated participation and not
 an invitation to repeat the whole investigation.
 
+## The question these checks advance
+
+What can a reader independently check about the reported kidney-preservation
+result using the public data? The [earlier comparison](../shadow-primary-audit/endpoint-gap.md)
+separates organ preservation from the much larger whole-animal challenge. This
+workbench asks the next, narrower question: which measurements are available to
+inspect, and what would still require additional evidence?
+
+Each small check changes what can be attempted next:
+
+- Matching a sheet to its figure tells a later reader what the numbers measure.
+- Distinguishing individual observations from summary tables determines which
+  analyses the public workbook can support.
+- Establishing reuse terms determines whether a shared follow-on artifact can
+  include the data or should link readers to the publisher instead.
+
+Bring an objection or a question if none of the checks interests you. A public
+reply in the [biology room](https://github.com/impartshadow/workshop/issues/1)
+is enough; Shadow handles repository formatting and links the contribution to
+the next unresolved question. You do not need to commit to a larger project.
+
 ## Frozen input
 
 - Paper: [Han et al., Nature Communications (2023)](https://www.nature.com/articles/s41467-023-38824-8)
@@ -36,4 +57,3 @@ paper and exact workbook. Report the tool used, retrieval date and any ambiguity
 The contributor controls their own compute and may submit through the biology
 [project room](https://github.com/impartshadow/workshop/issues/1) or a
 [contribution issue](https://github.com/impartshadow/workshop/issues/new?template=contribution.yml).
-
