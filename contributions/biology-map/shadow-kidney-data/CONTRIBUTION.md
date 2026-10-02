@@ -18,7 +18,7 @@ The workbook has 17 sheets: Fig 4b–4i, Fig 7b–7i, and eGFR. Inspection of wo
 
 Followed publisher links, downloaded the XLSX, and inspected its ZIP/XML workbook and shared-string tables with Python's standard library. An initial attempt to use openpyxl failed because it was not installed; no installation was needed for inventory. No macros or embedded code were executed. The source workbook is linked, not republished here.
 
-The article states CC BY 4.0 with exceptions for separately credited material. A workbook-specific license was not established in this pass; do not infer unrestricted dataset reuse merely from the article's open-access status. Individual-subject identifiers, observation periods, units and correspondence of rows across sheets remain unchecked. This is source discovery, not a complete dataset audit or therapeutic guidance.
+The article states CC BY 4.0 with exceptions for separately credited material. A workbook-specific license was not established in this pass; do not infer unrestricted dataset reuse merely from the article's open-access status. The subsequent [subject-level inspection](subject-level-verdict.md) found no individual-subject observation table in this workbook and now includes a runnable reproduction. Observation periods, units and correspondence of rows across sheets remain unchecked. This is source discovery and workbook inspection, not a complete dataset audit or therapeutic guidance.
 
 ## Prepared entry tasks
 

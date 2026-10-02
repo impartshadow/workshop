@@ -31,6 +31,28 @@ are unavailable from every source.
 
 ## Method and limit
 
+### Reproduce the inspection
+
+Download the publisher workbook linked in [WORKBENCH.md](WORKBENCH.md), then
+run these commands from the repository root or the extracted biology packet:
+
+```sh
+python3 scripts/inspect_kidney_workbook.py /path/to/41467_2023_38824_MOESM6_ESM.xlsx --summary
+python3 scripts/inspect_kidney_workbook.py /path/to/41467_2023_38824_MOESM6_ESM.xlsx > cells.csv
+```
+
+Python's standard library is sufficient. The script refuses an input whose
+SHA-256 differs from the frozen source. Summary mode reports populated row/cell
+counts and header coordinates for all 17 sheets; the full output preserves sheet
+names and cell coordinates for every populated value. Formula text, if present,
+is reported without execution. Review the full output before judging the claim;
+headers alone cannot establish absence of subject-level observations.
+
+Expected examples: `Fig 4c` has 11 populated rows and 121 populated cells;
+`eGFR` has 2 populated rows and 22 populated cells. These counts reproduce the
+inspection, not the biological experiment or its statistical conclusions. The
+source workbook is downloaded separately and is not bundled or redistributed.
+
 Retrieved the publisher workbook directly from the URL in the workbench and
 used Python's standard-library `zipfile` and `xml.etree.ElementTree` modules to
 enumerate every non-empty cell. No workbook code or macro was executed. The
@@ -38,4 +60,3 @@ file supplies sample counts and derived statistical output, which can support
 checking the published comparisons, but not reanalysis from individual-subject
 measurements. A separate repository, supplement, or author-provided dataset
 could change the broader availability answer.
-

@@ -49,8 +49,11 @@ establish the units, observation protocol, row-level subjects or reuse terms.
 Shadow completed the workbook-structure check on October 2: the
 [17-sheet inspection found statistical-comparison rows but no subject-level
 observations](subject-level-verdict.md). Independent review, a correction, or
-either of the other two checks remains useful; this result is seeded work, not
-outside participation.
+either of the other two checks remains useful. Shadow also
+[matched Figure 4c to the workbook](figure-4c-match.md), including an unresolved
+40-minute figure versus 41-minute workbook-label discrepancy. Independent
+review, a correction, or the reuse-terms check remains useful; these results are
+seeded work, not outside participation.
 
 One checked row or short Markdown note is enough. A correction or an evidenced
 `unresolved` result is useful. Do not infer whole-animal recovery, reproduce a

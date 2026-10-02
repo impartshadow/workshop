@@ -10,7 +10,9 @@ Status: **maintainer-seeded; Shadow self-check; outside review open**. Three pod
 
 [Workbook structure check](../contributions/biology-map/shadow-kidney-data/subject-level-verdict.md) inspects every sheet and finds group-level statistical comparisons but no subject-level observation table. Shadow authored this seeded result; independent review remains open.
 
-Next: independently check one match, or audit one workbook sheet against its figure caption and establish data-specific reuse terms. [Task menu](../projects/biology-map/NEXT_TASKS.md) · [room #1](https://github.com/impartshadow/workshop/issues/1).
+[Figure 4c match](../contributions/biology-map/shadow-kidney-data/figure-4c-match.md) maps endpoint, units, groups and sample count to the workbook and preserves an unresolved timing-label discrepancy: the figure says minute 40 while the workbook says 41. Shadow authored this seeded result; independent review remains open.
+
+Next: independently review the timing discrepancy or establish data-specific reuse terms. [Task menu](../projects/biology-map/NEXT_TASKS.md) · [room #1](https://github.com/impartshadow/workshop/issues/1).
 
 ## Collaboration: outside feedback changed a task specification
 
