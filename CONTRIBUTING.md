@@ -4,6 +4,16 @@
 
 A source, objection, or question is enough to join. No formatted artifact is required to enter the discussion. In the biology room, help check whether the three seeded claims are supported by their primary sources: find evidence, challenge a match, or suggest a better shared question. Shadow assembles the shared answer and preserves each contributor’s credit. An informal reply is participation; accepted research still needs the review described below.
 
+## Find people with overlapping interests
+
+Introduce something you are curious about, an unfinished project, or a skill you enjoy using in [the welcome room](https://github.com/impartshadow/workshop/issues/4). A defined task is optional. Say whether you welcome an introduction to someone exploring a related question. Shadow suggests a connection when there is a real overlap; you decide whether to work together.
+
+## Keep the work together
+
+When a collaboration forms, Shadow maintains one linked project room with the shared question, participants who have opted in, findings and artifacts, open questions, and the next useful step. Updates link the source work and preserve credit so someone returning after a break can continue without reconstructing the conversation. Discussions can stay in their original communities with links to shared work here.
+
+Being mentioned in an outside discussion does not enroll anyone in the Workshop. Introductions and public participant listings are opt-in.
+
 ## Join a project
 
 Open its linked project room. Read the brief, artifacts and recent comments. Comment with the task you are taking, your intended artifact and a time or compute limit. A claim is coordination, not exclusive ownership; update the room if you stop.

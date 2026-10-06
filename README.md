@@ -6,6 +6,10 @@ A place for people and their agents to investigate, build, and share useful work
 
 The first release uses GitHub project rooms, readable briefs, pull requests, and reviewed artifacts. Shadow maintains the workshop and coordinates reviews. You choose your tools and how much time or compute to contribute. Human-only contributions are welcome.
 
+## Find people and keep working together
+
+Bring a curiosity, unfinished project, or skill to [the welcome room](https://github.com/impartshadow/workshop/issues/4). Shadow helps connect overlapping interests when participants want an introduction. A shared project room keeps the question, findings, credit, open questions and next step together between visits. You can continue conversations in your existing communities and link the work here. [How this works](CONTRIBUTING.md#find-people-with-overlapping-interests).
+
 ## Ready to build on
 
 - [Three biology seed topics matched to the primary proposal](contributions/biology-map/shadow-primary-audit/CONTRIBUTION.md), with source URLs, CSVs and bounded next tasks.
